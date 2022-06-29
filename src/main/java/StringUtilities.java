@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class StringUtilities {
     /**
@@ -15,7 +16,7 @@ public class StringUtilities {
      * @return the concatenation of `baseValue` and `valueToBeAdded`
      */
     public String concatenate(String baseValue, String valueToBeAdded) {
-        return null;
+        return baseValue + valueToBeAdded;
     }
 
     /**
@@ -23,9 +24,11 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-    return null;
-    }
 
+    }
+    return null;
+
+}
         /**
          * @param word word to get middle character of
          * @return middle character of `word`
