@@ -19,41 +19,46 @@ public class StringUtilities {
         return baseValue + valueToBeAdded;
     }
 
+
     /**
      * @param valueToBeReversed value to be reversed
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
 
+        return null;
     }
-    return null;
 
-}
-        /**
-         * @param word word to get middle character of
-         * @return middle character of `word`
-         */
+
+    /**
+     * @param word word to get middle character of
+     * @return middle character of `word`
+     */
     public Character getMiddleCharacter(String word) {
 
         return null;
-        }
+    }
 
-        /**
-         * @param value        value to have character removed from
-         * @param charToRemove character to be removed from `value`
-         * @return `value` with char of value `charToRemove` removed
-         */
-        public String removeCharacter (String value, Character charToRemove){
+    /**
+     * @param value        value to have character removed from
+     * @param charToRemove character to be removed from `value`
+     * @return `value` with char of value `charToRemove` removed
+     */
+    public String removeCharacter(String value, Character charToRemove) {
 
 
-            return null;
-        }
+        return null;
+    }
 
-        /**
-         * @param sentence String delimited by spaces representative of a sentence
-         * @return last `word` in sentence
-         */
+    /**
+     * @param sentence String delimited by spaces representative of a sentence
+     * @return last `word` in sentence
+     */
+    public String getLastWord(String sentence) {
         public String getLastWord (String sentence){
+
             return null;
         }
     }
+
+}
