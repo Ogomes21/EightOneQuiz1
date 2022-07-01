@@ -25,8 +25,7 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-
-        return null;
+        return new StringBuilder(valueToBeReversed).reverse().toString();
     }
 
 
@@ -35,8 +34,16 @@ public class StringUtilities {
      * @return middle character of `word`
      */
     public Character getMiddleCharacter(String word) {
+        int length = word.length();
+        int middle = length / 2;
+        char middleChar;
 
-        return null;
+        if (length % 2 == 0) {
+            middleChar = word.charAt(middle - 1);
+        } else {
+            middleChar = word.charAt(middle);
+        }
+        return middleChar;
     }
 
     /**
@@ -45,20 +52,24 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
+        String newWord = "";
 
-
-        return null;
+        char[] charArray = value.toCharArray();
+        for (char letter : charArray) {
+            if (letter != charToRemove) {
+                newWord += String.valueOf(letter);
+            }
+        }
+        return newWord;
     }
 
     /**
      * @param sentence String delimited by spaces representative of a sentence
      * @return last `word` in sentence
      */
-    public String getLastWord(String sentence) {
-        public String getLastWord (String sentence){
+    public String getLastWord(String sentence) {return null;
 
-            return null;
-        }
+
     }
-
 }
+
