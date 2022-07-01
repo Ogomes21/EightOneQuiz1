@@ -10,7 +10,7 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          return null;
+          return number;
       }
 
       /**
@@ -21,7 +21,7 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          return null;
+          return phrase;
       }
 
       /**
@@ -37,6 +37,6 @@ public class LoopFun
        * @return the encrypted string by shifting each character by three character
        */
       public String encrypt(String word) {
-          return null;
+          return word;
       }
 }

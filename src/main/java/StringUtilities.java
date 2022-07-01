@@ -67,7 +67,7 @@ public class StringUtilities {
      * @param sentence String delimited by spaces representative of a sentence
      * @return last `word` in sentence
      */
-    public String getLastWord(String sentence) {return null;
+    public String getLastWord(String sentence) {return sentence;
 
 
     }
